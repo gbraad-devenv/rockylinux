@@ -1,0 +1,6 @@
+FROM ghcr.io/gbraad-devenv/rockylinux/dotfiles:9
+
+USER root
+
+ENTRYPOINT ["/sbin/init"]
+CMD ["/sbin/init"]
